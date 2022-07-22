@@ -1,3 +1,5 @@
+@import url('http://fonts.googleapis.com/css2?family=Lato:wght@100family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+/*movile first*/
 *{
     padding: 0;
     margin: 0;
@@ -19,14 +21,22 @@ body li{
 }
 
 body{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'poppins', sans-serif;
+    font-weight: bolder;
     font-size: 14px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     line-height: 1.42857143;
     color: #333;
     background-color: #fff;
 }
 
 header{
+    font-size: large;
+    display:grid;
+    justify-content: center;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -81,6 +91,9 @@ footer{
     text-align: center;
     background-color: #65969d;
     padding: 4rem 0 3rem;
+    margin-bottom: 0;
+    margin-top: 15px;
+
     
 }
 
@@ -122,12 +135,26 @@ iframe{
     height: auto;
     margin: 0 auto;
     border: 1px solid black;
-    align-items: center;
     display:grid;
     grid-column-gap: 20px;
-    grid-template-columns: 300px,100px;
+    justify-items: center;
+    display : flex;
+    align-items: center;
 }
+.prenda img{
+    width: 20%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30%,30%,30%;
+    grid-template-rows: 30%,30%,30%;
+    
+}
+.prendas{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
+}
 .catalogoImagen{
     width: 100%;
     height: auto;
@@ -144,6 +171,71 @@ iframe{
     border: 1px solid black;
 
 }
+
+.logo{
+    display: flex;
+    align-items:initial;
+    
+}
+
+.header{
+    grid-area: header;
+}
+.navegacion{
+    grid-area: navegacion;
+}
+.image{
+    grid-area: image;
+}
+.footer{
+    grid-area: footer;
+}
+.prenda{
+    grid-area: prenda;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        display: none;
+    }
+    .navegacion{
+        display: none;
+    }
+    .prenda{
+        display: none;
+    }
+    .catalogoImagen{
+        display: none;
+    }
+    .carrito{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .header{
+        grid-area: header;
+    }
+    .navegacion{
+        grid-area: navegacion;
+    }
+    .image{
+        grid-area: image;
+    }
+    .footer{
+        grid-area: footer;
+    }
+    .prenda{
+        grid-area: prenda;
+    }
+}
+
+
+
+
+
+    
+
 
 
 
