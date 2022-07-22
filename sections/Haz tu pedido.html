@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selena's shop</title>
+    <link rel="stylesheet" href="../styles/estilos.css">
+</head>
+<body>
+    <header class="navegacion">
+        <nav>
+            <ul>
+                <li>
+                     <a href="../index.html">Inicio</a> 
+                </li>
+                <li> 
+                    <a href="productos.html">Productos</a> 
+                </li>
+                <li> 
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                     <a href="contacto.html">Contacto</a> 
+                </li>
+                <li>
+                     <a href="Haz tu pedido.html">Haz tu pedido</a> 
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="carrito">
+        <div>
+            <h3>ingrese su numero de tarjeta</h3>
+            <form action="../php/pago.php" method="post">
+                <input type="text" name="numero" placeholder="numero de tarjeta">
+            </form>
+        </div>
+        <div>
+            <h3>ingrese su codigo cvi</h3>
+            <form action="../php/pago.php" method="post">
+                <input type="text" name="cvi" placeholder="codigo cvi">
+            </form>
+        </div>
+        <div>
+            <h3>acepte terminos y condiciones</h3>
+            <form action="../php/pago.php" method="post">
+                <input type="checkbox" name="acepta" value="1">
+                <input type="submit" value="aceptar">
+            </form>
+        </div>
+    </main>
+
+
+    
+    <footer>
+        <h2>Año del Bicentenario del Congreso de la República del Perú</h2>
+        <h3>Información de contacto</h3>
+        <h4>Ubicación</h4>
+    </footer>
+</body>
+</html>

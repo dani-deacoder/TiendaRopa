@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+body li{
+    list-style: none;
+    font-size: 25px;
+    display: inline-block;
+
+}
+
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 3.5rem 0;
+    z-index: 9;
+    display: block;
+    background-color: rgb(255 169 240);
+    width: 100%;
+    height: 100%;
+}
+.navegacion{
+    display:  grid;
+    grid-template-rows: auto;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box
+}
+
+.selena shops{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255 169 240);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bienvenida{
+    font-family: var(--jost);
+    font-size: 1.8rem;
+    color: var(--silver3a);
+    letter-spacing: .12rem;
+    max-width: 68rem;
+    margin: auto;
+}
+.descripcion{
+    border: 20px dotted black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8rem;
+    color: var(--silver3a);
+    letter-spacing: .12rem;
+    max-width: 68rem;
+    margin: auto;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+footer{
+    text-align: center;
+    background-color: #65969d;
+    padding: 4rem 0 3rem;
+    
+}
+
+section h2{
+    color: black;
+    padding: 20px;
+    margin: 40px 40px 40px 40px;
+    text-align: center;
+}
+section p{
+    color: black;
+    padding: 20x;
+    margin: 40px 40px 40px 40px;
+    text-align: initial;
+}
+section{
+    background-color: cornsilk;
+    padding: 30px;
+    margin: 80px 40px 80px 40px;
+}
+iframe{
+    width: 100%;
+    height: 50%;
+    align-items: center;
+}
+
+.muestra{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+    align-items: center;
+}
+
+
+
+.prenda{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+    align-items: center;
+    display:grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 300px,100px;
+}
+
+.catalogoImagen{
+    width: 100%;
+    height: auto;
+    padding-left: 40px;
+    align-items: center;
+}
+
+.carrito{
+    align-items: initial;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
+
+
+
