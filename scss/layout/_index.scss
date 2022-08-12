@@ -1,0 +1,52 @@
+.descripcion{  
+    text-align: center;
+    
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.image{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    h2{
+        text-align: center;
+        font-family: $letra;
+    }
+    p{
+        @extend h2;
+    }
+}
+.muestras{
+    display:grid;
+    // poner en el centro de la pantalla
+    justify-content: center;
+    grid-gap: 10px;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 10x;
+    margin-bottom: 10%; 
+}
+.muestra{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    iframe{
+        @extend .muestra;
+        margin-top: 20px;
+    }
+}
+.header{
+    grid-area: header;
+}
+.navegacion{
+    grid-area: navegacion;
+}
+.muestras{
+    grid-area: muestras;
+}
+.footer{
+    grid-area: footer;
+}
+.main{
+    grid-area: main;
+}   

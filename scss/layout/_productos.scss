@@ -1,0 +1,26 @@
+.prendas{
+    //tipo de letra
+    font-family: $letra;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    color: #df5757;
+}
+.prenda{
+    border : 10px solid rgb(79, 42, 212);
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 30%,30%,30%;
+    grid-template-rows: 30%,30%,30%;
+    grid-gap: 10px;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 10x;
+    margin-bottom: 10%;
+    width: 100%;
+    height: auto;
+    display: grid;
+    vertical-align: middle;
+}
