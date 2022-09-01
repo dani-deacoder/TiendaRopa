@@ -143,14 +143,26 @@ main {
 .formulario {
   display: grid;
   justify-content: center;
-  margin: auto;
-  width: 50%;
+  width: 100%;
   height: auto;
   font-family: "Arial", sans-serif;
   margin-bottom: 50%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 20%;
+  margin-top: 20%;
+  padding-top: 20px;
   align-items: center;
+  background-color: #ffc5ff;
+}
+
+.formulario input {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
 }
 
 .carrito {
@@ -163,6 +175,24 @@ main {
   margin-bottom: 20%;
   margin-top: 20%;
   padding-top: 20px;
+  background-color: #ffc5ff;
 }
+.carrito input {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.logo{
+  width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
 
 /*# sourceMappingURL=style.css.map */

@@ -14,12 +14,17 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light fondNav">
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="./index.html">Home</a>
+                      <a class="navbar-brand" href="./index.html">
+                        <img src="./images/logo1.PNG" alt="logo" class="logo">
+                      <a class="navbar-brand" href="./index.html"></a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" href="./index.html">Home</a>
+                          </li>
                           <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./sections/productos.html">Catálogo</a>
                           </li>
@@ -47,14 +52,38 @@
 
         <section class="descripcion">
             <h6>Tenemos una variedad de estilos que podrían interesarte.
-                Trabajamos con telas y algodón de la más alta calidad, para que puedas elegir la ropa que más te guste. Realizamos envios a nivel nacional y a nivel internacional.Contamos con 7 años de experiencia en el rubro y nos encantaría que te conocieras y te atendieramos con amabilidad y atención. Nuetros clientes siempre quedan satisfechos y sus valoraciones lo acreditan en nuestra página de facebook. </h6>
+                Trabajamos con telas y algodón de la más alta calidad, para que puedas elegir la prenda que más te guste. Realizamos envios a nivel nacional e internacional.Contamos con 7 años de experiencia en el rubro y nos encantaría que puedas disfrutar de nuestro amplio catálogo. Nuetros clientes siempre quedan satisfechos y sus valoraciones acreditan ello. </h6>
         </section>
 
-        <section class="image">
-          <div>
-            <h2>Prendas más compradas en la semana</h2>
-            <p>Llego el verano y el furor por este tipo de prendas vino con el</p>
+        <section>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="image">
+              <h2>Prendas más compradas en la semana</h2>
+              <p>Llego el verano y el furor por este tipo de prendas vino con el</p>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/jean2.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/jean3.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/lenceria2.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
+        </section>
+        <section class="image">
+
             <div class="muestras">
             <source media="(min - width: 768px)" srcset="images/blusa2.jpg">
             <source media="(min - width: 480px)" srcset="images/blusa2.jpg">
@@ -77,10 +106,13 @@
 
 
         <footer>
-            <h2>siguenos en instragram</h2>
-            <h2>Año del Bicentenario del Congreso de la República del Perú</h2>
-            <h3>Información de contacto</h3>
-            <h4>Ubicación</h4>
+          <h2>Siguenos en instragram</h2>
+          <p>selena.shops@ig</p>
+          <h2>Año del Bicentenario del Congreso de la República del Perú</h2>
+          <h3>Información de contacto</h3>
+          <p>correo electrónico: danielselena@gmail.com</p>
+          <h4>Ubicación</h4>
+          <p>Lima-Perú</p>
         </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
